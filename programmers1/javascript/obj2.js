@@ -16,5 +16,5 @@ console.log(man["name"]);    // 홍길동이 출력됩니다.
 */
 
 var book = {"title":"어린왕자"};
-console.log("제목:", book.title);
-console.log("제목:", book[title]);
+console.log("제목:", book.title);// .
+console.log("제목:", book[title]);// []

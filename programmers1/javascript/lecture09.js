@@ -1,12 +1,3 @@
-var a=5, b=3;
-a+b;
-a-b;
-a+3;
-5+3;
-a*b;
-a/b;
-a%b;
--a;
 /*
 Part 04 - 연산자
 Arithematic operator
@@ -52,3 +43,21 @@ Math.random() : 0~1 사이의 임의의 난수를 발생시켜 줌
 
 */
 
+// var a=5, b=3;
+// a+b;// 8
+// a-b;//2
+// a+3;//8
+// 5+3;//8
+// a*b;//15
+// a/b;//1.6666666666666667
+// a%b;//2
+// -a;//-5
+
+var a=1;
+console.log(a);//1
+console.log(++a);//++a -> a+1, --a -> a-1, ++a -> 실행문 이후에 +1, --a 도 마찬가지
+console.log(a);//2
+
+Math.pow(2,3); //2의 3승 -> 8
+Math.sqrt(16); // 16의 제곱근 -> 4
+Math.random(); // 아무숫자 랜덤
